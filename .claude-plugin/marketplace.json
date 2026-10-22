@@ -1,0 +1,43 @@
+{
+  "name": "hubspot-skills",
+  "owner": {
+    "name": "Norman Schönherr",
+    "email": "hey@normanschoenherr.de"
+  },
+  "metadata": {
+    "description": "Claude Skills for HubSpot – built from real sales and automation work",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "hubspot-sequences",
+      "description": "Build, edit, test and auto-enroll HubSpot sequences (Sales Hub) via n8n/API – English",
+      "source": "./",
+      "strict": false,
+      "author": {
+        "name": "Norman Schönherr",
+        "email": "hey@normanschoenherr.de"
+      },
+      "license": "MIT",
+      "keywords": ["hubspot", "sequences", "sales", "n8n"],
+      "skills": [
+        "./hubspot-sequences"
+      ]
+    },
+    {
+      "name": "hubspot-sequenzen",
+      "description": "HubSpot-Sequenzen (Sales Hub) bauen, ändern, testen und per n8n/API einschreiben – Deutsch",
+      "source": "./",
+      "strict": false,
+      "author": {
+        "name": "Norman Schönherr",
+        "email": "hey@normanschoenherr.de"
+      },
+      "license": "MIT",
+      "keywords": ["hubspot", "sequenzen", "vertrieb", "n8n"],
+      "skills": [
+        "./hubspot-sequenzen"
+      ]
+    }
+  ]
+}

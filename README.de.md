@@ -54,7 +54,14 @@ Details, Builder-Plan und Vorlagentexte: [`references/beispiel-kadenz.md`](hubsp
 1. Ordner `hubspot-sequenzen` als ZIP packen (oder die `.skill`-Datei aus den Releases laden).
 2. In Claude unter Einstellungen → Fähigkeiten (Skills) hochladen.
 
-**Claude Code**
+**Claude Code (Plugin-Marketplace, empfohlen)**
+```
+/plugin marketplace add normannormalmann/hubspot-skills
+/plugin install hubspot-sequenzen@hubspot-skills
+```
+Neue Skills und Updates kommen per `/plugin marketplace update hubspot-skills`.
+
+**Claude Code (manuell)**
 Ordner `hubspot-sequenzen` nach `~/.claude/skills/` (global) oder `.claude/skills/` (Projekt) kopieren.
 
 ### Einrichtung
